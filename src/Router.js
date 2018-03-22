@@ -3,7 +3,8 @@ import React from 'react';
 import { Scene, Router, Actions } from 'react-native-router-flux';
 
 // components
-import { Home, SecondPage } from './components';
+import { SecondPage } from './components';
+import FirstPage from './containers/FirstPage';
 
 const RouterComponent = () => {
   return (
@@ -16,7 +17,7 @@ const RouterComponent = () => {
           rightTitle="Next"
           onRight={() => Actions.secondPage()}
           key="firstPage"
-          component={Home}
+          component={FirstPage}
           title="First Page"
         />
         <Scene 

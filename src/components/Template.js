@@ -1,13 +1,15 @@
 // libraries
 import React, { Component } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
 
 /* Components ==================================================================== */
-class Home extends Component {
+class Template extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello World!</Text>
+        <TouchableHighlight>
+          <Text>Hello World!</Text>
+        </TouchableHighlight>
       </View>
     );
   }
@@ -33,4 +35,4 @@ const styles = StyleSheet.create({
 });
 
 /* Export ==================================================================== */
-export { Home };
+export { Template };
