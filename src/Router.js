@@ -23,6 +23,7 @@ const RouterComponent = () => {
           key="secondPage"
           component={SecondPage}
           title="Second Page"
+          backTitle="Back"
         />        
       </Scene>
 
