@@ -1,4 +1,4 @@
-package com.momentum;
+package com.rnstarterkit;
 
 import android.app.Application;
 
